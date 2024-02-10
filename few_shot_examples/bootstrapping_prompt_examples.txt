@@ -1,0 +1,37 @@
+### Task Start ###
+Write a function to find the number of ways to fill it with 2 x 1 dominoes for the given 3 x n board.
+
+Your code should pass these tests:
+assert count_ways(2) == 3
+
+[ANSWER]
+def count_ways(n):
+  A = [0] * (n + 1)
+  B = [0] * (n + 1)
+  A[0] = 1
+  A[1] = 0
+  B[0] = 0
+  B[1] = 1
+  for i in range(2, n+1):
+    A[i] = A[i - 2] + 2 * B[i - 1]
+    B[i] = A[i - 1] + B[i - 2]
+  return A[n]
+[DONE]
+
+### Task End ###
+
+### Task Start ###
+Write a python function to check whether the two numbers differ at one bit position only or not.
+
+Your code should pass these tests:
+assert differ_At_One_Bit_Pos(15,8) == False
+
+[ANSWER]
+def differ_At_One_Bit_Pos(a,b):
+  x = a ^ b
+  return x and (not(x & (x - 1)))
+[DONE]
+
+### Task End ###
+
+### Task Start ###
