@@ -10,7 +10,7 @@ Language models for program synthesis are usually trained and evaluated on progr
 
 ## Citation
 If you use this work, please cite it as:
-```
+```bibtex
 @masterthesis{vdvleuten2023,
     title        = {Dr. Boot: Bootstrapping Program Synthesis Language Models to Perform Repairing},
     author       = {Noah van der Vleuten},
