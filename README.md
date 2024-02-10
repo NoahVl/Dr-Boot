@@ -23,13 +23,13 @@ If you use this work, please cite it as:
 ```
 
 ## Repository Structure
-- `configs/`: Contains the configuration file for the experiments.
-- `data/`: Contains the datasets used in the thesis.
-- `models/`: Contains code for running and training the CodeT5.
-- `results/`: Contains the results of the experiments and analysis tools used in the thesis.
-- `few_shot_examples/`: Contains the few-shot examples used in the thesis.
-- `experiment_scripts/`: Contains the scripts used to run the experiments.
-- `./`: Contains the training scripts with helper functions, includes the code for the bootstrapping algorithm (`train_sdr.py`).
+- `configs/`: Configuration file for the experiments.
+- `data/`: Datasets used in the thesis.
+- `models/`: Code for running and training the CodeT5 model.
+- `results/`: Results of the experiments and analysis tools used in the thesis.
+- `few_shot_examples/`: Few-shot examples used in the thesis.
+- `experiment_scripts/`: Scripts used to run the experiments.
+- `./`: Training scripts with helper functions, includes the code for the bootstrapping algorithm (`train_sdr.py`).
 
 ## Setup
 To run the experiments, we need to install the required packages. A `env.yml` file is included in the repository to create a conda environment with the required packages. To create the environment, run the following command in the root directory:
