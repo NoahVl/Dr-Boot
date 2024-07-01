@@ -1,7 +1,7 @@
 # Dr. Boot: Bootstrapping Program Synthesis Language Models to Perform Repairing
 Repo accompanying my [master's thesis](https://scripties.uba.uva.nl/search?id=record_54126).
 
-<img alt="Created by DALLE-3: Woman holding a device to bootstrap an unsuspecting man, reading a poorly written title of the master&#39;s thesis." height="500" src="https://th.bing.com/th/id/OIG1.3PI.fUVVbpzSxIXVqf1K?pid=ImgGn" title="Image for repo" width="500"/>
+<img alt="Created by DALLE-3: Woman holding a device to bootstrap an unsuspecting man, reading a poorly written title of the master&#39;s thesis." height="500" src=./dr_boot.jfif title="Dr. Boot: Bootstrapping Program Synthesis Language Models to Perform Repairing" width="500"/>
 
 (Image created by DALLE-3)
 
