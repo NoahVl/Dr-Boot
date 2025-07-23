@@ -11,14 +11,14 @@ Language models for program synthesis are usually trained and evaluated on progr
 ## Citation
 If you use this work, please cite it as:
 ```bibtex
-@masterthesis{vdvleuten2023,
-    title        = {Dr. Boot: Bootstrapping Program Synthesis Language Models to Perform Repairing},
-    author       = {Noah van der Vleuten},
-    year         = 2023,
-    month        = {July},
-    note         = {Available at \url{https://scripties.uba.uva.nl/search?id=record_54126}},
-    school       = {University of Amsterdam},
-    type         = {Master's thesis}
+@misc{vandervleuten2023drbootbootstrappingprogram,
+      title={Dr. Boot: Bootstrapping Program Synthesis Language Models to Perform Repairing}, 
+      author={Noah van der Vleuten},
+      year={2023},
+      eprint={2507.15889},
+      archivePrefix={arXiv},
+      primaryClass={cs.SE},
+      url={https://arxiv.org/abs/2507.15889}, 
 }
 ```
 
